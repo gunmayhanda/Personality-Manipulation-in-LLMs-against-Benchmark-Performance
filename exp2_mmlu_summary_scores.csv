@@ -1,0 +1,7 @@
+trait,n_total,n_correct,accuracy,accuracy_diff
+agreeableness,6,0,0.0,0.0
+conscientiousness,6,0,0.0,0.0
+extraversion,6,0,0.0,0.0
+neuroticism,6,0,0.0,0.0
+neutral,1,0,0.0,0.0
+openness,6,0,0.0,0.0
