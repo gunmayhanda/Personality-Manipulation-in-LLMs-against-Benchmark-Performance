@@ -1,5 +1,5 @@
-bbq_ambiguous_with_metadata.csv
-REMOVEDcache/
+*.csv
+!personality_data_train.csv
 *.token
 *.env
 tmp/
@@ -8,3 +8,6 @@ uclenv/
 uclenv-kernel/
 BBQ-main/
 hf_cache/
+mi_env/
+mech_interp/activations/
+.env
