@@ -7,7 +7,12 @@ share/
 uclenv/
 uclenv-kernel/
 BBQ-main/
+cache/
 hf_cache/
 mi_env/
 mech_interp/activations/
 .env
+personality_vs_bias/peft_output_models
+personality_vs_bias/peft_output_models_v2_refined
+peft_output_models
+personality_vs_task_perf/mmlu_personality_results
