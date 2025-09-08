@@ -1,5 +1,4 @@
 *.csv
-!personality_data_train.csv
 *.token
 *.env
 tmp/
@@ -16,3 +15,16 @@ personality_vs_bias/peft_output_models
 personality_vs_bias/peft_output_models_v2_refined
 peft_output_models
 personality_vs_task_perf/mmlu_personality_results
+mats/
+mech_interp/
+personality_vs_agent/
+personality_vs_bias/
+personality_vs_task_perf/
+purified_data_subsets/
+personality_data_train.csv
+personality_dataset_generation.py
+BBQ_concat.py
+replacements.txt
+test.ipynb
+attribution.html
+.cursor/
