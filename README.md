@@ -90,7 +90,27 @@ python generate_gemma_2_steering.py --calibrate
 #### `personality_dataset_generation.py`
 Generates personality contrastive datasets for training.
 
-### Analysis Notebooks
+### Analysis Scripts
+
+#### `calculate_stability_metrics.py`
+Calculates normalized stability metrics for personality manipulation methods across benchmarks.
+
+**Usage:**
+```bash
+python calculate_stability_metrics.py
+python calculate_stability_metrics.py --debug
+```
+
+**Features:**
+- Normalizes performance deltas across MMLU, GAIA, and BBQ benchmarks
+- Calculates consistency (inverse of variance) and disruption metrics
+- Provides composite stability scores for method comparison
+- Aggregates results by method, personality, and combination levels
+- Generates detailed analysis reports
+
+**Output:**
+- `normalized_stability_results.csv`: Aggregated stability rankings
+- `detailed_normalized_stability.csv`: Detailed metrics for all combinations
 
 #### `generate_alignment_numbers.ipynb`
 Jupyter notebook for analyzing personality alignment metrics.
@@ -136,6 +156,7 @@ scripts/
 ├── evaluate_generate.py      # Main generation pipeline
 ├── evaluate_score.py         # Scoring and classification
 ├── eda.py                    # Data analysis tool
+├── calculate_stability_metrics.py # Stability analysis
 ├── generate_gemma_2_PEFT.py  # Gemma-2 PEFT training
 ├── generate_llama_3_PEFT.py  # Llama-3 PEFT training
 ├── generate_gemma_2_steering.py # Steering vector extraction

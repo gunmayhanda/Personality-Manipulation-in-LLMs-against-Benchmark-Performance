@@ -22,7 +22,7 @@ personality_vs_bias/
 personality_vs_task_perf/
 purified_data_subsets/
 personality_data_train.csv
-personality_dataset_generation.py
+/personality_dataset_generation.py
 BBQ_concat.py
 replacements.txt
 test.ipynb
